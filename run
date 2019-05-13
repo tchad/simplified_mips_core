@@ -1,0 +1,5 @@
+#!/bin/bash
+
+iverilog CPU_tb.v -o test
+mkdir report
+./test
